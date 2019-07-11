@@ -233,12 +233,37 @@ The mismatching between the organization structure and the architecture may caus
 
 #### 痛点：
 1. Service Modularization and Refactoring
-2. Service Granuiarity
-3. Front-End Integration
-4. Resource Monitoring and Management
-5. Failure, Recovery, and Self-Repair
-6. Organization Culture and Coordination
 
+   （With any approach to modularization, finding the right modules, with the right size, 
+   the right assignment of responsibilities, and well-designed interfaces, is a challenge. ）
+   
+   
+2. Service Granuiarity
+
+   （Another issue is the lack of agreement on the right size of microservices. Although the name 
+   itself seems to suggest that microservices should be as small as possible, project teams tend to interpret this tenet in drastically different ways. )
+
+3. Resource Monitoring and Management
+  
+   (As microservice applications' size and complexity grow, the number and diversity of infrastructure resources 
+   (for example, virtual machines, containers, services, messages, thread pools, and logs) that must be continuously 
+   monitored and managed at runtime also increase.)
+   
+   
+4. Failure, Recovery, and Self-Repair
+  
+    (Like any type of distributed system, microservices typically are fragile. For many reasons, 
+	such as network, hardware, or application-level issues, they might become unavailable, become inaccessible, or simply fail. )
+	
+	
+5. Organization Culture and Coordination
+   
+   (Having many autonomous teams developing independently deployed services might be a double-edged sword. One one hand, 
+   each team can make local decisions without always having to negotiate with other teams. 
+   On the other hand, it increases the risk of teams failing to see the big picture—that is,
+   to understand whether their local decisions are justifiable and coherent in the context
+   of the system's overall architecture and business goals.)
+   
 
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
