@@ -232,6 +232,7 @@ The mismatching between the organization structure and the architecture may caus
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
 - agility
+- scalability
 - loose coupling
 - faster delivery
 - greater autonomy
