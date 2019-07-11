@@ -265,6 +265,25 @@ The mismatching between the organization structure and the architecture may caus
    of the system's overall architecture and business goals.)
    
 
+# 论文题目：Microservices: Architecting for Continuous Delivery and DevOps
+
+#### 收益：
+1. Deployment independency.(After the application has been moved to Microservices, there is no need to queue for merges; no need to resolve merge conflicts with other teams; and no need to coordinate with and wait for other teams’ changes. Finally, each team can deploy their changes independently)
+2. Shorter deployment time.(Each service is significantly smaller than the corresponding former monolith. Deploying such a small service takes a shorter amount of time than that for the corresponding former monolith)
+3. Simpler deployment procedures.(The procedures to deploy a large monolithic application are generally more complex than the procedures to deploy a microservice)
+4. Zero downtime.(After the application has been moved to Microservices, we can choose the most suitable database for each individual service. It turned out only a small portion of the services actually required a relational database. Thus, all the other services use a NoSQL database, which is more amenable to schema evolution)
+5. Shorter cycle time for small incremental functional changes(For most small incremental functional changes, we have reduced the cycle time from multiple months to two to five days. Although we cannot attribute all the cycle time reduction to the use of Microservices, the use of Microservices is a factor to achieve such short (two to five days) cycle time.)
+6. Incremental quality attribute changes(We are not only able to make incremental functional changes but also to make incremental changes to quality attributes. )
+7. Easier technology changes(Teams can choose different technologies for implementing their services)
+8. Easier language and library upgrades(each team can upgrade independently because each service no longer shares the same code base, compilation process, and language runtime (e.g., Java virtual machine) with other parts of the system. )
+
+#### 痛点：
+1. Increased number of services(The traditional approach is not able to handle the significantly increased number of services with frequent releases. The large number of deployment requests greatly exceeds what the operations engineers can handle. )
+2. Evolving interactions/contracts among services.(With Microservices, some interactions that were formerly internal communications within an application became external communications among services. This led to more interactions among services and more contracts to manage. Not only did the number of interactions/contracts increase, but all the participants in these interactions also undergo frequent changes. )
+3. Technology diversity(Using diverse technology stacks in an uncontrolled manner can lead to problems. For example, each team using a different technology stack creates knowledge silos that make moving individuals from overstaffed to under-staffed teams difficult. Moreover, each introduced technology stack requires operational overhead, which can outweigh the benefits of introducing a new technology stack)
+4. Testing(Microservices introduces testing challenges, which mainly arise from changes that impact interactions among services)
+
+
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
 - agility, for incremental development (Agile) and continuous deployment of business software
