@@ -1,7 +1,7 @@
 
 
-# 论文题目：Microservice Architecture in Reality: An Industrial Inquiry （南京大学张贺）
-（https://ieeexplore.ieee.org/document/8703917）
+# 论文题目：Microservice Architecture in Reality: An Industrial Inquiry 
+（https://ieeexplore.ieee.org/document/8703917） （南京大学张贺老师）
 
 
 研究了9个维度的微服务的收益和痛点
@@ -230,13 +230,16 @@ The mismatching between the organization structure and the architecture may caus
 
 
 # 收益统计
-- independence or the autonomy of microservices (can be developed & deployed independently of other services)
-- shorten the lead time of products in practice
+- independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions development / implementation)
+- shorten the lead time of products in practice  (Rapid development and enhanced operational support, reduce implementation and release cycle time and enables continuous delivery)
 - reduces the dependency and the communication among teams, and consequently lowers the cost of management
 - controlling Technology Diversity
 - stepwise Evolution
 - focus on business need
 - enhancing the customer experience
+- reduced dependency on key resources
+- Increased traceability （企业采用微服务架构的主要驱动力）
+- For incremental development (Agile) and continuous deployment of business software
 
 # 痛点统计
 - miss knowledge and lack of qualified people.   
