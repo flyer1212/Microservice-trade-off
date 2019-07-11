@@ -230,7 +230,12 @@ The mismatching between the organization structure and the architecture may caus
 
 
 # 收益统计
-- independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions development / implementation)
+- independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
+- agility
+- loose coupling
+- faster delivery
+- greater autonomy
+- have flexible and evolvable architectures
 - shorten the lead time of products in practice  (Rapid development and enhanced operational support, reduce implementation and release cycle time and enables continuous delivery)
 - reduces the dependency and the communication among teams, and consequently lowers the cost of management
 - controlling Technology Diversity
@@ -240,6 +245,8 @@ The mismatching between the organization structure and the architecture may caus
 - reduced dependency on key resources
 - Increased traceability （企业采用微服务架构的主要驱动力）
 - For incremental development (Agile) and continuous deployment of business software
+- Improving the system maintainability and the frequency of product releases.
+
 
 # 痛点统计
 - miss knowledge and lack of qualified people.   
