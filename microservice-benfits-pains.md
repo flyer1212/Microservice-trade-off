@@ -243,8 +243,8 @@ The mismatching between the organization structure and the architecture may caus
 - evaluating changing deployment trade-offs
 - resource Monitoring and Management  £¨unsatisfying Monitoring and Logging£©
 - failure recovery, and Self-Repair
-- chaotic Independence
+- chaotic Independence (when the mi-croservices are over fine-grained)
 - complexity of API Management 
-- excessive Technology Diversity
+- excessive Technology Diversity (increases the complexity of the learning and construction)
 - data Inconsistence £¨implementation are very complicated£©
   
