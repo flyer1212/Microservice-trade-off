@@ -72,7 +72,7 @@ The mismatching between the organization structure and the architecture may caus
 
 #### 收益:
  1） Compromise with Database Decomposition
-     由于一下原因未考虑分解数据库：
+> (由于一下原因未考虑分解数据库：)
 - （Memory database in use）
 - （Databases partitioned in legacy systems.）
 - （Benefit analysis of decomposition）
