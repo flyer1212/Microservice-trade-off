@@ -233,14 +233,15 @@ The mismatching between the organization structure and the architecture may caus
 # Õ¥µ„Õ≥º∆
 - miss knowledge and lack of qualified people.   
 - increases operational challenges
-- troubleshooting is harder £®distributed debugging£©
+- troubleshooting is harder £®distributed debugging£© 
 - microservices generate more application data
-- creation of cross-functional teams
+- creation of cross-functional teams £¨ Organization Culture and Coordination
 - lack infrastructure automation
 - checking for upgrade consistency
 - identifying architectural improvements £®Service Modularization and Refactoring£©
-- evaluating changing deployment trade-offs 
-
+- evaluating changing deployment trade-offs
+- resource Monitoring and Management 
+- failure recovery, and Seft-Repair
 
 
   
