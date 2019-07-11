@@ -238,8 +238,8 @@ The mismatching between the organization structure and the architecture may caus
 - creation of cross-functional teams
 - lack infrastructure automation
 - checking for upgrade consistency
-- identifying architectural improvements
-- evaluating changing deployment trade-offs £¨Service Modularization and Refactoring£©
+- identifying architectural improvements £¨Service Modularization and Refactoring£©
+- evaluating changing deployment trade-offs 
 
 
 
