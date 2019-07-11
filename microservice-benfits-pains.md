@@ -62,7 +62,8 @@ The mismatching between the organization structure and the architecture may caus
 
  #### 痛点:
  2） Excessive Technology Diversity
--（The diversity of technology stacks also raises the requirements on developers' ability and increases the complexity of the learning and construction.）
+
+- （The diversity of technology stacks also raises the requirements on developers' ability and increases the complexity of the learning and construction.）
 
 
 ## Decentralized Data Management （分散数据管理）
@@ -235,14 +236,15 @@ The mismatching between the organization structure and the architecture may caus
 - increases operational challenges
 - troubleshooting is harder （distributed debugging, decrease the testability ,  joint debugging among different versions） 
 - microservices generate more application data
-- creation of cross-functional teams ， Organization Culture and Coordination
-- lack infrastructure automation
+- creation of cross-functional teams ， Organization Culture and Coordination ( lack the guide on how to do it) 
+- lack infrastructure automation （Inadequate Automation）
 - checking for upgrade consistency
-- identifying architectural improvements （Service Modularization and Refactoring）
+- identifying architectural improvements （Service Modularization and Refactoring, Missing of an Effective Decomposition Guide）
 - evaluating changing deployment trade-offs
-- resource Monitoring and Management 
+- resource Monitoring and Management  （unsatisfying Monitoring and Logging）
 - failure recovery, and Self-Repair
 - chaotic Independence
-
-
+- complexity of API Management 
+- excessive Technology Diversity
+- data Inconsistence （implementation are very complicated）
   
