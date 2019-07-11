@@ -284,6 +284,55 @@ The mismatching between the organization structure and the architecture may caus
 4. Testing(Microservices introduces testing challenges, which mainly arise from changes that impact interactions among services)
 
 
+# 论文题目：
+
+#### 收益：
+
+1. Scalability – With the instances of small sized microservices being easy to develop, implement and operate, scalability of large complex systems can be increased manifolds.
+
+2. Continuous Delivery – Implementation of new microservices and re-deployment of existing microservices with an upgraded functionality is a lot easy.
+
+3. Development – Microservices implementing single tasks / logic involves less efforts in development and deployment of individual microservices.
+
+4. Independence – Microservices are considered to be developed and implemented in a way that it should work independently hence removing various dependency issues like error cascading through other operations.
+
+5. Maintainability – Due to the small size it is prone to less bugs and is easy to maintain and upgrade.
+
+6. Reusability – Independent microservices with dedicated own databases can be re-used multiple times without understanding of the detailed internal working.
+
+7. Technology Heterogeneity – An opportunity to use the technology of own choice for implementation of independent microservices.
+
+
+
+#### 痛点：
+1. Interactions between Microservices and Client
+
+   (direct interactions between UI and microservices then it will be causing congestion by too many calls between both over public network)
+   
+2.  ACID Transactions in Databases per Microservices
+
+    (Microservices are proposed to act as an independent working entity with its own dedicated data portion which presents an issue of ensuring ACID (Atomicity, Consistency, Isolation, Durability) transactions spanning over multiple databases per microservces. )
+	
+3. Fault Tolerance
+   
+   (with the single failure of one microservice, it can result a complete failure or ripple effect in operations of the complete software system. )
+   
+
+4. Monitoring (Performance / Analytics)
+   
+   (Software systems consisting of microservices present a challenge of handling the performance issues and analytics of microservices)
+   
+5. Security
+
+   (Security is a major challenge in any software system however with multiple large number of microservices, preventing 
+   unauthorized access to business operations is a serious challenge to implement at various layers of the system (application, deployment platforms etc).)
+   
+
+6.  Deployment and Integration
+
+   (Deployment of a large complex system is always a problem however incase of microservices architecture integration between microservices
+   and the deployment of microservices is a major challenge which needs to be catered for from the initial design phase. )
+
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
 - agility, for incremental development (Agile) and continuous deployment of business software
