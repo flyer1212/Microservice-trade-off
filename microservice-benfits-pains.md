@@ -4,7 +4,7 @@
 （https://ieeexplore.ieee.org/document/8703917） （南京大学张贺老师）
 
 
-研究了9个维度的微服务的收益和痛点
+研究了几个维度的微服务的收益和痛点
 
 
 ##  A  Componentization Via Services （通过服务进行组件化）
@@ -231,13 +231,12 @@ The mismatching between the organization structure and the architecture may caus
 
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
-- agility
+- agility, for incremental development (Agile) and continuous deployment of business software
 - scalability
 - loose coupling
-- faster delivery
+- faster delivery, shorten the lead time of products in practice  (Rapid development and enhanced operational support, reduce implementation and release cycle time and enables continuous delivery)
 - greater autonomy
 - have flexible and evolvable architectures
-- shorten the lead time of products in practice  (Rapid development and enhanced operational support, reduce implementation and release cycle time and enables continuous delivery)
 - reduces the dependency and the communication among teams, and consequently lowers the cost of management
 - controlling Technology Diversity
 - stepwise Evolution
@@ -245,7 +244,6 @@ The mismatching between the organization structure and the architecture may caus
 - enhancing the customer experience
 - reduced dependency on key resources
 - Increased traceability （企业采用微服务架构的主要驱动力）
-- For incremental development (Agile) and continuous deployment of business software
 - Improving the system maintainability and the frequency of product releases.
 
 
