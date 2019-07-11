@@ -207,11 +207,22 @@ The mismatching between the organization structure and the architecture may caus
 
 
 #### 痛点：
-1. Checking for upgrade consistency
+1. Checking for upgrade consistency  
+
+ （developers manually identify micro service dependencies and either engage with other developers who own that
+ micro service or evaluate the dependency through code inspection）
+ 
 2. Identifying architectural improvements  (架构的确定困难)
+
+   （An evolving μApp will experience software architectural corrosion, such as a decrease in cohesion and increase in coupling between related services. ）
+   
+   
 3. Evaluating changing deployment trade-offs
 
-
+   （Today developers evaluate changing deployment trade-offs through trial and error without a systematic strategy nor much tool support.）
+   
+   
+   
 #  论文题目： Microservices The Journey So Far and Challenges Ahead
 
 #### 收益：
