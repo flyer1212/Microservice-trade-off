@@ -9,12 +9,12 @@
 
 ##  A  Componentization Via Services （通过服务进行组件化）
 
-#### 收益
+#### 收益:
  1) Practice 1: Independence by Separation  
 - (the benefit of componentization are the independence or the autonomy of microservices)
 - (shorten the lead time of products in practice)
 
-#### 痛点
+#### 痛点:
   2)  Chaotic Independence
 - (For instance, inappropriate boundary among services may decrease the testability, especially when the mi-croservices are over fine-grained)
 - (increases the complexity of joint debugging among different versions)
@@ -25,11 +25,11 @@
 
 ## Organized Around Business Capabilities  (围绕业务能力组织)
 
-#### 收益
+#### 收益:
 1)  Organizational Transformation
 - （reduces the dependency and the communication among teams, and consequently lowers the cost of management. ）
 
-#### 痛点
+#### 痛点:
 2） Unguided Organizational Transformation
 - （organizations in this study still achieve the transformation mainly based on experience，
 The mismatching between the organization structure and the architecture may cause the low 
@@ -41,13 +41,13 @@ The mismatching between the organization structure and the architecture may caus
  
 ##  Smart Endpoints and Dumb Pipes (智能端点和哑通道)
 
-#### 收益
+#### 收益:
 1）  Choosing Communication Protocol
 -（Four main factors concerned by practitioners are the maturity of the technology's ecosystem (8/13), the activity of the community (8/13),
    the supporting documents (6/13), and technology stacks with previous experience (6/13)）
 -（这个收益主要指框架选择很多，基于RESTful的 Spring Cloud, 基于RPC的Apache Dubbo, 他们提供了很多组件，）
 
-#### 痛点
+#### 痛点:
 2） Complexity of API Management
 - （the communications among mi-croservices is the complexity of the implementation and management of API）
  
@@ -55,26 +55,26 @@ The mismatching between the organization structure and the architecture may caus
 
 ##   Decentralized Governance （分散治理）
 
-#### 收益
+#### 收益:
 1） Controlling Technology Diversity (控制技术多样性)
 - (microservices support a mix of multiple languages, development frameworks and data-storage technologies, i.e. technology diversity
     但是从业者不会鼓励技术多样性，这会带来问题，如版本控制等)
 
- #### 痛点
+ #### 痛点:
  2） Excessive Technology Diversity
 -（The diversity of technology stacks also raises the requirements on developers' ability and increases the complexity of the learning and construction.）
 
 
 ## Decentralized Data Management （分散数据管理）
 
-#### 收益
+#### 收益:
  1） Compromise with Database Decomposition
      由于一下原因未考虑分解数据库：
 - （Memory database in use）
 - （Databases partitioned in legacy systems.）
 - （Benefit analysis of decomposition）
 
-#### 痛点
+#### 痛点:
 
  2）Data Inconsistence
 - （practitioners are usually pained with the complexity of addressing the distributed transactions while ensuring the data consistency.）
@@ -85,13 +85,13 @@ The mismatching between the organization structure and the architecture may caus
 
 ## Infrastructure Automation （基础设施自动化）
 
-#### 收益
+#### 收益:
 1） CI&CD
 - （applying infrastructure automation technology）
 - （service mesh technology to facilitate the upgrade and the version management of microservices. 通过Service Mesh 方便升级和管理）
 
 
-#### 痛点
+#### 痛点:
 2） Inadequate Automation
 - （many existing infrastructure-related technical frameworks are unsatisfying to meet their requirements. 许多基础设施不能满足现有的需求)
 
@@ -99,13 +99,13 @@ The mismatching between the organization structure and the architecture may caus
 ## Design for Failure 
 
 
-#### 收益
+#### 收益:
 
 1） Monitoring and Logging
 - （Monitoring Metrics）
 - （Monitoring Strategies）
 
-#### 痛点
+#### 痛点:
 
 2) Unsatisfying Monitoring and Logging
 - (Insufficiency of Automated Operation)
@@ -116,10 +116,10 @@ The mismatching between the organization structure and the architecture may caus
 
 ## Evolutionary Design (进化设计)
 
-#### 收益
+#### 收益:
 1） Stepwise Evolution
 
-#### 痛点
+#### 痛点:
 2）  Missing of an Effective Decomposition Guide （缺少有效的分解指南）
 - （DDD is a relatively abstract thing to us, without a specific process. Since different people had different consensus of views about it）
 
@@ -157,7 +157,7 @@ The mismatching between the organization structure and the architecture may caus
 
 
 
-#### 痛点
+#### 痛点:
 1. Miss knowledge and lack of qualified people.
 
 
@@ -226,3 +226,9 @@ The mismatching between the organization structure and the architecture may caus
 6. Organization Culture and Coordination
 
 
+# 收益统计
+ 
+
+# 痛点统计
+
+  
