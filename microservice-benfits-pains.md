@@ -222,7 +222,7 @@ The mismatching between the organization structure and the architecture may caus
 2. Service Granuiarity
 3. Front-End Integration
 4. Resource Monitoring and Management
-5. Failure, Recovery, and Seft-Repair
+5. Failure, Recovery, and Self-Repair
 6. Organization Culture and Coordination
 
 
@@ -241,7 +241,7 @@ The mismatching between the organization structure and the architecture may caus
 - identifying architectural improvements £¨Service Modularization and Refactoring£©
 - evaluating changing deployment trade-offs
 - resource Monitoring and Management 
-- failure recovery, and Seft-Repair
+- failure recovery, and Self-Repair
 
 
   
