@@ -43,9 +43,11 @@ The mismatching between the organization structure and the architecture may caus
 
 #### 收益:
 1）  Choosing Communication Protocol
--（Four main factors concerned by practitioners are the maturity of the technology's ecosystem (8/13), the activity of the community (8/13),
+
+- （Four main factors concerned by practitioners are the maturity of the technology's ecosystem (8/13), the activity of the community (8/13),
    the supporting documents (6/13), and technology stacks with previous experience (6/13)）
--（这个收益主要指框架选择很多，基于RESTful的 Spring Cloud, 基于RPC的Apache Dubbo, 他们提供了很多组件，）
+
+- （这个收益主要指框架选择很多，基于RESTful的 Spring Cloud, 基于RPC的Apache Dubbo, 他们提供了很多组件，）
 
 #### 痛点:
 2） Complexity of API Management
@@ -88,7 +90,7 @@ The mismatching between the organization structure and the architecture may caus
 
 #### 收益:
 1） CI&CD
-- （applying infrastructure automation technology）
+- (applying infrastructure automation technology)
 - （service mesh technology to facilitate the upgrade and the version management of microservices. 通过Service Mesh 方便升级和管理）
 
 
@@ -228,8 +230,13 @@ The mismatching between the organization structure and the architecture may caus
 
 
 # 收益统计
- 
-- 
+- independence or the autonomy of microservices (can be developed & deployed independently of other services)
+- shorten the lead time of products in practice
+- reduces the dependency and the communication among teams, and consequently lowers the cost of management
+- controlling Technology Diversity
+- stepwise Evolution
+- focus on business need
+- enhancing the customer experience
 
 # 痛点统计
 - miss knowledge and lack of qualified people.   
