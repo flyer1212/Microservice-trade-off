@@ -376,10 +376,12 @@ The mismatching between the organization structure and the architecture may caus
 #### 痛点：
 
 1. Dependability
+
    （There are many pitfalls that we need to keep in mind when programming with microservices. 
    In particular, preventing programming errors is hard. Consequently, building dependablesystems is challenging.）
    
 2. Trust and Security
+
    （The microservice paradigm poses a number of trust and security challenges. These issues are certainly not new, as they apply to
    SOA and in general to distributed computing,but theybecomeevenmorechallengingin the contextof microservices. ）
    
@@ -387,8 +389,10 @@ The mismatching between the organization structure and the architecture may caus
    
     （Network Complexity）
 	
-3. 
-
+3. Performance
+   （the performance will degrade compared to applications that use in-memory call mechanisms. ）
+   
+ 
 
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
