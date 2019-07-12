@@ -333,6 +333,63 @@ The mismatching between the organization structure and the architecture may caus
    (Deployment of a large complex system is always a problem however incase of microservices architecture integration between microservices
    and the deployment of microservices is a major challenge which needs to be catered for from the initial design phase. )
 
+
+
+#   Microservices: Yesterday, Today, and Tomorrow
+
+#### 收益：
+1.  A microservice is a cohesive, independent process interacting via messages. 
+    （microservicesshouldbeindependentcomponents conceptuallydeployedinisolationandequippedwithdedicatedmemorypersistence tools (e.g. databases).）
+
+
+2.  Microservices naturally lend themselves to containerisation 
+   	（developers enjoy a high degree of freedom in the con?guration of the
+	deployment environment that best suits their needs (both in terms of costs and quality of service). 
+	
+3.  Scaling a microservice architecture does not imply a duplication of all its components
+    （ developers can conveniently deploy/dispose instances of services with respect to their load ）
+
+4. 	developers can freely choose the optimal resources (languages, frameworks, etc.) for the implementationof each microservice
+ 
+5. Size
+   （only a single business capability. This brings bene?ts in terms of service maintainability and extendability.） 
+   
+6. Bounded context
+   （Related functionalities are combined into a single business capability, which is then implemented as a service）
+
+7. Independency
+    （—Each servicein microservicearchitectureis operationallyindependent from other services, 
+	and the only form of communication between services is throughtheir publishedinterfaces）
+
+8. Flexibility
+   （A system is able to keep up with the ever-changing business environment and is able to support all
+   modi?cations that is necessary for an organisationto stay competitiveon the market）
+
+9. Modularity
+   （A system is composed of isolated components where each component contributes to the overall 
+   system behaviour rather than having a single componentthat offers full functionality）
+   
+10. Evolution
+    （A system should stay maintainable while constantly evolving and adding new features.）
+	
+	
+#### 痛点：
+
+1. Dependability
+   （There are many pitfalls that we need to keep in mind when programming with microservices. 
+   In particular, preventing programming errors is hard. Consequently, building dependablesystems is challenging.）
+   
+2. Trust and Security
+   （The microservice paradigm poses a number of trust and security challenges. These issues are certainly not new, as they apply to
+   SOA and in general to distributed computing,but theybecomeevenmorechallengingin the contextof microservices. ）
+   
+   （GreaterSurface Attack Area）
+   
+    （Network Complexity）
+	
+3. 
+
+
 # 收益统计
 - independence or the autonomy of microservices (Scalability and flexibility, can be developed & deployed independently of other services, More efficient deployment of technology solutions)
 - agility, for incremental development (Agile) and continuous deployment of business software
