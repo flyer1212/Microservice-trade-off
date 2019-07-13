@@ -14,7 +14,7 @@
   
 -  This paper summarises views of microservices from informal literature to reflect on the foundational context of this paradigm shift.
   
-   (本文总结了非正式文献中对微服务的观点，来反映转换到微服务的基础背景, 这些背景帮助架构师解决其设计问题)
+    (本文总结了非正式文献中对微服务的观点，来反映转换到微服务的基础背景, 这些背景帮助架构师解决其设计问题)
 
 -  Related design trade-offs include: 
 
@@ -22,7 +22,7 @@
 	
    1. balancing the size and number of microservices in an architecture 
 
-     （平衡架构中微服务的大小和数量）
+      （平衡架构中微服务的大小和数量）
 	  
    2. balancing the nonfunctional requirement satisfaction levels of the individual microservices as well as their satisfaction for the overall system. 
 
@@ -55,7 +55,7 @@ Among the crucial and non-trivial decision problems (DPs) that constitute addres
 	       
 		   (什么时候将几个细粒度的微服务合并成粗粒度的微服务，实现两种权衡所需的最优化)
 		   
-    (3)  When should the current level of granularity be kept without further merging or decomposition?
+     (3)  When should the current level of granularity be kept without further merging or decomposition?
 	      
 		  (应该何时保持当前的粒度级别而不进一步合并或分解？)
 		  
@@ -64,10 +64,10 @@ Among the crucial and non-trivial decision problems (DPs) that constitute addres
 		  
 		  (无论体系结构中微服务的粒度级别如何，所选择的体系结构仍然必须保证系统的功能要求)
 	
--   DP3: Much of the uncertainties that relate to the choice of the optimal architecture and the knowledge that relates to the 
+-  DP3: Much of the uncertainties that relate to the choice of the optimal architecture and the knowledge that relates to the 
            expected behaviour of the system, can not be fully captured at design time.
 		 
-		 (最优架构的选择和系统预期行为相关的知识在设计的时候是无法完全捕获的，需要运行时支持以不断更新设计时的知识)
+		  (最优架构的选择和系统预期行为相关的知识在设计的时候是无法完全捕获的，需要运行时支持以不断更新设计时的知识)
 
 
 
@@ -85,30 +85,30 @@ Among the crucial and non-trivial decision problems (DPs) that constitute addres
    
 - Input to Mape-k Loop
   
-  （输入架构建模知识）
+   （输入架构建模知识）
   
 - Monitoring
   
-  （监视系统运行时相关的变量， 如客户端请求率 和 系统响应时间）
+   （监视系统运行时相关的变量， 如客户端请求率 和 系统响应时间）
 
 -  Analysis
   
-  (分析监测变量的值，转化为对当前系统的感知)
+    (分析监测变量的值，转化为对当前系统的感知)
 
 -  Planning
- 
- （由分析的结果，采取触发（和计划）适应的决定）
+  
+   （由分析的结果，采取触发（和计划）适应的决定）
 
 -  Execution
   
- （将精细的抽象体系结构映射到具体的服务）
+   （将精细的抽象体系结构映射到具体的服务）
 
 - Knowledge
  
- （捕获系统运行时的动态不确定性，以更新获得的知识）
+   （捕获系统运行时的动态不确定性，以更新获得的知识）
 
 
-##  conclusion， 
+##  Conclusion
 
    Our contribution has reflected on the informal literature about microservices, their properties and their modelling techniques. 
    We have then formulated the problem of finding the optimal level of granularity during microservitization.
@@ -116,7 +116,7 @@ Among the crucial and non-trivial decision problems (DPs) that constitute addres
   （我们的贡献是反映了非正式文献中关于微服务的属性 和建模技术， 以及我们制定的在微服务化期间找到最佳粒度水平的问题）
 
 
-##  contributions
+##  Contributions
 
 1. We review and reflect on the definition, properties, and modelling techniques of microservices as presented in informal literature
    
