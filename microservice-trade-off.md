@@ -3,7 +3,8 @@
 # 论文： Microservices and Their Design Trade-Offs: A Self-Adaptive Roadmap
            （微服务及其设计权衡：自适应路线图）
 
-## 摘要
+## Abstract
+
 - the state of the art still lacks consensus on the definition of microservices, their properties and their modelling techniques. 
   
   （现有的技术仍然缺乏对微服务的定义，性质，以及建模技术的共识）
@@ -51,7 +52,7 @@ Among the crucial and non-trivial decision problems (DPs) that constitute addres
 	      
 		  （什么时候将微服务分解成更细粒度的产品才能实现两种权衡所需的最优化？）
      
-	（2) When does merging several fine-grained microservices into a coarse-grained one achieve the required optimality for both trade-offs?
+	（2)  When does merging several fine-grained microservices into a coarse-grained one achieve the required optimality for both trade-offs?
 	       
 		   (什么时候将几个细粒度的微服务合并成粗粒度的微服务，实现两种权衡所需的最优化)
 		   
@@ -71,7 +72,7 @@ Among the crucial and non-trivial decision problems (DPs) that constitute addres
 
 
 
-##  method
+##  Method
   
   We propose a solution based on the MAPE-K loop to render a systematic solution that improves over the system lifetime through accumulating knowledge.
   
