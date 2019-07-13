@@ -1,28 +1,35 @@
 
 
-## 论文： Microservices and Their Design Trade-Offs: A Self-Adaptive Roadmap
+# 论文： Microservices and Their Design Trade-Offs: A Self-Adaptive Roadmap
            （微服务及其设计权衡：自适应路线图）
 
-#### 摘要
+## 摘要
 - the state of the art still lacks consensus on the definition of microservices, their properties and their modelling techniques. 
+  
   （现有的技术仍然缺乏对微服务的定义，性质，以及建模技术的共识）
   
 - One of the motivations of this paper is to bridge this gap by digesting the various informal views from industry on defining microservices to aid in understanding the design problems faced by software architects when migrating to microservices.
-   （本文的动机就是消化业界关于定义微服务的各种非正式观点来弥合这一差距，以帮助理解软件架构师在迁移到微服务时所面临的设计问题）
+  
+  （本文的动机就是消化业界关于定义微服务的各种非正式观点来弥合这一差距，以帮助理解软件架构师在迁移到微服务时所面临的设计问题）
   
 -  This paper summarises views of microservices from informal literature to reflect on the foundational context of this paradigm shift.
-   (本文总结了非正式文献中对微服务的观点，来反映转换到微服务的基础背景, 这些背景帮助架构师解决其设计问题)
+  
+  (本文总结了非正式文献中对微服务的观点，来反映转换到微服务的基础背景, 这些背景帮助架构师解决其设计问题)
 
 -  Related design trade-offs include: 
+
     （由设计问题，引出了下面两个设计权衡）
 	
    1. balancing the size and number of microservices in an architecture 
+
    （平衡架构中微服务的大小和数量）
 	  
    2. balancing the nonfunctional requirement satisfaction levels of the individual microservices as well as their satisfaction for the overall system. 
+
     (平衡各个微服务的非功能需求满意度以及对整个系统的满意度）
 
 - We propose how self-adaptivity can assist in addressing these design trade-offs and discuss some of the challenges such a selfadaptive solution. 
+
     (我们提出自适应是如何解决这些设计权衡的，并讨论了一些自适应解决方案所面临的挑战)
 	
 	  
