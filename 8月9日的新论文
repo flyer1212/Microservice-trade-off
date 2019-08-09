@@ -1,0 +1,27 @@
+1. 名字：Microservices: The Journey So Far and Challenges Ahead
+   链接：https://ieeexplore.ieee.org/document/8354433
+   摘要(目的)：本文从技术、优势和架构的角度探讨了微服务的发展，并讨论了未来微服务发展面临的主要挑战。
+   
+2. 名字：Microservices: yesterday, today, and tomorrow
+   链接：https://arxiv.org/abs/1606.04036   
+   摘要(目的)：回顾了软件架构的历史，导致对象和服务首先传播的原因，以及后来的微服务。
+               介绍了未解决的问题和未来的挑战。并指出了一些可能的解决方案。
+			   
+3. 名字：Challenges of Microservices Architecture: A Survey on the State of the Practice		   
+   链接：https://www.researchgate.net/publication/328216639_Challenges_of_Microservices_Architecture_A_Survey_on_the_State_of_the_Practice
+   摘要(目的)：提出了一项实证调查的结果，以评估当前的实践状况并收集微服务架构中的挑战。
+               综合了25个收集的结果，并为研究问题提供了清晰的概述。
+
+4. 名字：Architecting Microservices: Practical Opportunities and Challenges		   
+   链接：https://www.researchgate.net/publication/327915054_Architecting_Microservices_Practical_Opportunities_and_Challenges
+   摘要(目的)：源于对19位ICT架构师的深入访谈，讨论了与微服务的采用和实施相关的一系列机遇和挑战。
+   
+5. 名字：Microservices Migration in Industry: Intentions, Strategies, and Challenges   
+   连接：https://www.researchgate.net/publication/333717108_Microservices_Migration_in_Industry_Intentions_Strategies_and_Challenges
+   摘要(目的)：通过对来自10家公司的软件专业人员进行16次深入访谈，调查了14个系统在不同领域和规模上的迁移过程，
+               总结出了该过程的重要的策略、挑战等。
+			   
+6. 名字：A Systematic Mapping Study in Microservice Architecture
+   链接：https://ieeexplore.ieee.org/document/7796008
+   摘要(目的)：提出了微服务架构及其实现的系统映射研究。
+               其研究重点是识别架构挑战，与微服务系统相关的架构图/视图和质量属性。
